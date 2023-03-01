@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #2E2C2F;
+    --button-color: #484649;
+    --text-color: #F3E8EE;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;;
+    align-items: center;
+}
+
+h2 {
+    color: var(--text-color);
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.reset-lock-btn {
+    background-color: var(--button-color);
+    color: var(--text-color);
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    margin-top: 1.5rem;
+    border-radius: 4px;
+    border: 0;
+    transition: background-color 0.2s ease;
+}
+
+.reset-lock-btn:hover {
+    background-color: #555357;
+    transition: background-color 0.2s ease;
+}
+
+.red {
+    color: #FF0035;
+}
